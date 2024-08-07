@@ -1,0 +1,12 @@
+name: WorldManager
+version: '${project.version}'
+main: eu.macsworks.worldmanager.WorldManager
+api-version: 1.21
+authors: [Macs]
+description: Plugin to manage worlds
+website: macsworks.eu
+
+commands:
+  manageworlds:
+    description: Opens the World Manager GUI
+    permission: worldmanager.opengui

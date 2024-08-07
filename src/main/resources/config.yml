@@ -1,0 +1,45 @@
+# Configuration file for WorldManager Plugin
+
+lang:
+  #Errors
+  no-permission: "&c[&4!&c] You don't have permission!"
+  error-import-world: "&c[&4!&c] An error has occurred whilst importing the world."
+
+  #GUI strings
+  main-gui-name: "&eWorld Manager"
+  worlds: "&aWorlds"
+  world-info: "&7Dimension Type: &e%env%\n&7Seed: &e%seed%\n\n&7Last Used: &e%last-used%\n&7Created by: &e%creator%\n\n&fL. Click &7to teleport\n&fShift + L. Click &7to change World Icon\n&fShift + R. Click &7to unload\n\n&8%size% MB"
+  unloaded-world-info: "&7Unloaded for: &e%unloaded-for%\n&7Unloaded by: &e%unloader%\n\n&7Last Used: &e%last-used%\n&7Created by: &e%creator%\n\n&fL. Click &7to load\n&fShift + L. Click &7to change World Icon\n&fShift + R. Click &7to &4delete\n\n&8%size% MB"
+  edit-query: "&7Edit Search Query"
+  current-query: "&7Current Query: '%query%'"
+  switch-filter: "&7Switch Filter Mode"
+  filter-mode: "&7Current Filter: &e%mode%"
+  next-page: "&7Page -->"
+  prev-page: "&7<-- Page"
+  create-world: "&a&lCreate &7a world..."
+  import-world: "&9&lImport &7a world..."
+  edit-worlds: "&e&lManage &7worlds..."
+  info: "&7Information"
+  info-lore: "&7TPS: &a%tps%\n\n&7Worlds: &f%worlds%\n&8of which loaded: &a%loaded-worlds%\n&8of which unloaded: &c%unloaded-worlds%\n\n&7Total Size: &f%total-size% MB"
+  select-world-material: "&eSelect %name%'s icon"
+
+  #Inputs
+  edit-query-title: "&eEnter the new search query..."
+  input-world-name: "&eEnter the world to import..."
+
+#Amount of seconds after which a world will be unloaded IF nobody has travelled to that world for the amount of time
+world-usage-threshold: 604800
+
+
+#Folder in which the loadable worlds are, has to be inside the server folder (supports subfolders)
+unloaded-worlds-folder: "loadable-worlds"
+
+#Materials staff will be able to pick when selecting a World Icon (only shown in /manageworlds)
+world-materials:
+  - STONE
+  - BEACON
+  - OBSIDIAN
+  - STICK
+  - WATER_BUCKET
+  - LAVA_BUCKET
+  - BARRIER

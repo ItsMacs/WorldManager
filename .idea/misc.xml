@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="fd5485a8-cd01-4358-ad4e-71a70c2f8864" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="false" project-jdk-name="azul-17" project-jdk-type="JavaSDK" />
+</project>
